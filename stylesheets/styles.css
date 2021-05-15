@@ -1,0 +1,15 @@
+header {
+  background: red;
+}
+
+section {
+  float: left;
+  margin-left: 200px;
+  background: green;
+}
+
+aside {
+  float: left;
+  margin-right: 200px;
+  background: orange;
+}
