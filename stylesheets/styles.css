@@ -1,10 +1,20 @@
+body {
+  font-size: 14px;
+  font-family: 'Roboto','Arial',sans-serif;
+}
+
 header {
-  background: red;
+  overflow: auto;
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 section {
   float: left;
-  margin-left: 200px;
+  margin: 100px 0px 0px 200px;
   background: green;
 }
 
@@ -13,3 +23,64 @@ aside {
   margin-right: 200px;
   background: orange;
 }
+
+input {
+  width: 575px;
+  padding: 4px 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 4px;
+  border: none;
+}
+
+button {
+  background-color: white;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.search-container {
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+.header-start {
+  width: 20%;
+  float: left;
+  text-align: left;
+  padding: 10px 0px 10px 0px;
+}
+
+.header-middle {
+  width: 57%;
+  float: left;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.header-end {
+  width: 20%;
+  float: left;
+  text-align: right;
+  padding: 2px 0px 2px 0px;
+}
+
+.header-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sign-in-btn {
+  display: inline-block;
+  border: 1px solid;
+  border-color: blue;
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+}
+
+
+
