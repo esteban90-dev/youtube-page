@@ -1,5 +1,7 @@
 body {
+  background-color: #f9f9f9;
   font-size: 14px;
+  font-weight: 400;
   font-family: 'Roboto','Arial',sans-serif;
 }
 
@@ -15,7 +17,6 @@ header {
 section {
   float: left;
   margin: 100px 0px 0px 200px;
-  background: green;
 }
 
 aside {
@@ -80,6 +81,68 @@ button {
   border-radius: 2px;
   padding: 5px 5px 5px 5px;
   vertical-align: middle;
+}
+
+.video-info {
+  overflow: auto;
+}
+
+.video-title {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.video-info-text {
+  float: left;
+  color: gray;
+  padding-top: 8px;
+}
+
+.video-info-buttons {
+  float: right;
+}
+
+.video-info-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.video-info-button-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 9px;
+  margin-right: 10px;
+}
+
+.channel {
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.channel-start {
+  float: left;
+  padding: 0px 10px 0px 10px;
+}
+
+.channel-middle {
+  float: left;
+  width: 900px;
+}
+
+.channel-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-height: 16px;
+}
+
+.channel-subscribers {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+}
+
+.channel-end {
+  float: right;
 }
 
 
