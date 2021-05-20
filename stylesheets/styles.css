@@ -14,15 +14,23 @@ header {
   background-color: white;
 }
 
+.wrapper {
+  width: 1600px;
+  margin: 125px auto;
+}
+
+.row {
+  overflow: auto;
+}
+
 section {
   float: left;
-  margin: 100px 0px 0px 200px;
+  max-width: 75%;
 }
 
 aside {
   float: left;
-  margin-right: 200px;
-  background: orange;
+  max-width: 20%;
 }
 
 input {
@@ -32,14 +40,6 @@ input {
   font-weight: 400;
   line-height: 24px;
   margin-left: 4px;
-  border: none;
-}
-
-button {
-  background-color: white;
-  color: blue;
-  font-weight: 500;
-  font-size: 16px;
   border: none;
 }
 
@@ -74,13 +74,21 @@ button {
   vertical-align: middle;
 }
 
-.sign-in-btn {
+.sign-in-btn-container {
   display: inline-block;
   border: 1px solid;
   border-color: blue;
   border-radius: 2px;
   padding: 5px 5px 5px 5px;
   vertical-align: middle;
+}
+
+.sign-in-btn {
+  background-color: white;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
 }
 
 .video-info {
@@ -114,18 +122,13 @@ button {
   margin-right: 10px;
 }
 
-.video-desc-show {
-  color: gray;
-  font-weight: 650;
-}
-
 .channel {
   overflow: auto;
   margin-top: 10px;
   border-style: solid none solid none;
   border-width: 1px;
   border-color: lightgray;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 .channel-start {
@@ -162,6 +165,90 @@ button {
   border: none;
   border-radius: 3px;
   font-weight: 650;
+}
+
+.comment-top-container {
+  overflow: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+.comment-number {
+  float: left;
+}
+
+.comment-sort-icon {
+  float: left;
+  margin: 0px 10px 0px 40px;
+}
+
+.comment-sort-text {
+  float: left;
+}
+
+.comment-form-container {
+  overflow: auto;
+  margin: 30px 0px 30px 0px;
+}
+
+.comment-form-left, .comment-left {
+  float: left;
+  margin: 0px 0px 0px 10px;
+  width: 5%;
+}
+
+.comment-form-right {
+  float: right;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: lightgray;
+  font-size: 14px;
+  width: 92%;
+  margin-bottom: 10px;
+}
+
+.comment-container {
+  overflow: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+.comment-right {
+  float: right;
+  width: 92%;
+}
+
+.comment-content {
+  width: 90%;
+}
+
+.commenter-container {
+  margin: 0px 0px 7px 0px;
+}
+
+.commenter-name {
+  font-weight: 600;
+  margin: 0px 5px 0px 0px;
+}
+
+.comment-date {
+  color: gray;
+  font-size: 12px;
+}
+
+.comment-buttons-container {
+  overflow: auto;
+  margin: 10px 0px 10px 0px;
+}
+
+.comment-button-item {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+.standard-btn {
+  color: gray;
+  font-weight: 650;
+  border: none;
+  background-color: #f9f9f9;
 }
 
 
