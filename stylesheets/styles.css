@@ -251,5 +251,14 @@ input {
   background-color: #f9f9f9;
 }
 
+.comment-form-input {
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+.search-form-input {
+  outline: none;
+}
+
 
 
